@@ -7,6 +7,12 @@ import {
   Input,
   Stack,
   useColorModeValue,
+  Box,
+  chakra,
+  Container,
+  Link,
+  Text,
+  VisuallyHidden,
 } from "@chakra-ui/react";
 
 export default function ResetPasswordForm(): JSX.Element {
