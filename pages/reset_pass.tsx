@@ -44,10 +44,10 @@ export default function ResetPasswordForm(): JSX.Element {
         </FormControl>
         <Stack spacing={6}>
           <Button
-            bg={"blue.400"}
+            bg={"teal.400"}
             color={"white"}
             _hover={{
-              bg: "blue.500",
+              bg: "green.500",
             }}
           >
             Submit
