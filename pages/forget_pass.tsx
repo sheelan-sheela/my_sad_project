@@ -19,13 +19,13 @@ export default function ForgotPasswordForm(): JSX.Element {
       minH={"100vh"}
       align={"center"}
       justify={"center"}
-      bg={useColorModeValue("gray.50", "gray.800")}
+      bg={useColorModeValue("teal.50", "teal.800")}
     >
       <Stack
         spacing={4}
         w={"full"}
         maxW={"md"}
-        bg={useColorModeValue("white", "gray.700")}
+        bg={useColorModeValue("white", "teal.700")}
         rounded={"xl"}
         boxShadow={"lg"}
         p={6}
@@ -36,14 +36,14 @@ export default function ForgotPasswordForm(): JSX.Element {
         </Heading>
         <Text
           fontSize={{ base: "sm", sm: "md" }}
-          color={useColorModeValue("gray.800", "gray.400")}
+          color={useColorModeValue("teal.800", "teal.400")}
         >
           You&apos;ll get an email with a reset link
         </Text>
         <FormControl id="email">
           <Input
             placeholder="your-email@example.com"
-            _placeholder={{ color: "gray.500" }}
+            _placeholder={{ color: "teal.500" }}
             type="email"
           />
         </FormControl>
