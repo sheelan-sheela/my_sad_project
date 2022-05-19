@@ -12,6 +12,7 @@ import {
   Box,
   HStack,
   Button,
+  useOutsideClick,
 } from "@chakra-ui/react";
 
 import LastCheckedIn from "../components/LastCheckedIn";
@@ -41,7 +42,7 @@ function App() {
       </DrawerApp>
       <VStack>
         <Text py="8" fontSize="4xl">
-          يرجى وضع الباج التعريفي امام الكامير من اجل تسجيل الدخول
+          يرجى وضع الهوية التعريفية امام الكاميرا من اجل تسجيل الدخول
         </Text>
         <HStack width="full" justifyContent="space-around">
           <VStack width="xl">
@@ -69,10 +70,9 @@ function App() {
           <ModalCloseButton />
           <ModalHeader>تسجيل الدخول</ModalHeader>
           <ModalBody>
-            اهلا
+            {"اهلا بك"}
             <Text as="span" fontWeight="bold" mb="1rem">
-              {" "}
-              شيلان حسن{" "}
+              {"              شيلان حسن خليل "}
             </Text>
             تم تسجيل دخولك بنجاح
           </ModalBody>
