@@ -15,12 +15,32 @@ import { AiFillEdit } from "react-icons/ai";
 import { BsBoxArrowUpRight, BsFillTrashFill } from "react-icons/bs";
 
 export default function Component() {
-  const header = ["name", "created", "actions"];
+  const header = ["name", "e_mail", "date of birth", "phone number", "actions"];
   const data = [
-    { name: "شيلان حسن خليل", created: "7 days ago" },
-    { name: "امنة محمد مجيد", created: "23 hours ago" },
-    { name: " معتز ماهر سعد الله", created: "A few seconds ago" },
-    { name: "محمد باقر احمد", created: "A few hours ago" },
+    {
+      name: "شيلان حسن خليل",
+      e_mail: "example@gmail.com",
+      age: "1/1/2000",
+      phone: "00964772345",
+    },
+    {
+      name: "امنة محمد مجيد",
+      e_mail: "example@gmail.com",
+      age: "1/1/2000",
+      phone: "00964772345",
+    },
+    {
+      name: " معتز ماهر سعد الله",
+      e_mail: "example@gmail.com",
+      age: "1/1/2000",
+      phone: "00964772345",
+    },
+    {
+      name: "محمد باقر احمد",
+      e_mail: "example@gmail.com",
+      age: "1/1/2000",
+      phone: "00964772345",
+    },
   ];
   const color1 = useColorModeValue("gray.400", "gray.400");
   const color2 = useColorModeValue("gray.400", "gray.400");
