@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@ant-design/icons": "^4.7.0",
     "@chakra-ui/icons": "^1.1.7",
     "@chakra-ui/react": "^1.8.6",
     "@emotion/react": "^11",
@@ -22,6 +23,7 @@
     "react-native": "^0.68.2",
     "react-qr-reader": "^3.0.0-beta-1",
     "react-router-dom": "^6.3.0",
+    "rsuite-table": "^5.5.0",
     "styled-components": "^5.3.5"
   },
   "devDependencies": {
